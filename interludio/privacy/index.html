@@ -107,7 +107,7 @@
     <h1>Política de Privacidad de Interludio</h1>
 
     <p class="meta">
-      Última actualización: 21 de septiembre de 2026
+      Última actualización: 18 de octubre de 2026
     </p>
 
     <article class="content">
@@ -155,15 +155,17 @@
       </p>
 
       <p>
-        Interludio registra únicamente eventos funcionales generales, por
-        ejemplo, cuando un usuario añade o elimina el widget, guarda o elimina
-        un Momento, inicia el proceso de compartir o visita la sección Premium.
+        Los eventos personalizados de Interludio registran acciones funcionales
+        generales, por ejemplo, guardar o eliminar Momentos, interactuar con el
+        widget, iniciar el proceso de compartir o consultar la sección Premium.
+        Estos eventos son distintos de los eventos automáticos de Firebase
+        Analytics y de los datos de compras descritos en la sección 4.
       </p>
 
       <p>
-        Estos eventos no incluyen el texto de la frase, tus notas personales,
-        tu cumpleaños, tu nombre, correo electrónico ni otros datos que
-        introduzcas en la aplicación.
+        Los eventos personalizados no incluyen textos de frases, notas
+        personales, cumpleaños, tokens de compra ni datos personales que
+        introduzcas en la aplicación, como tu nombre o correo electrónico.
       </p>
 
       <p>
@@ -176,6 +178,8 @@
       <p>
         Cuando utilizas la función Compartir, Interludio genera localmente una
         imagen con la frase seleccionada y abre el menú de compartir de Android.
+        Si falla la generación de la imagen, Interludio puede ofrecer la frase
+        como texto.
       </p>
 
       <p>
@@ -184,8 +188,9 @@
       </p>
 
       <p>
-        Firebase Analytics puede registrar únicamente que se inició la función
-        de compartir, sin registrar el contenido compartido ni su destino.
+        En relación con la función Compartir, Interludio puede registrar en
+        Firebase Analytics que se inició el proceso, sin incluir el contenido
+        compartido ni su destino.
       </p>
 
       <h2>4. Compras dentro de la aplicación</h2>
@@ -207,6 +212,14 @@
         desbloqueadas.
       </p>
 
+      <p>
+        Interludio tiene habilitada la integración entre Google Play y Google
+        Analytics for Firebase para obtener estadísticas de compras e ingresos.
+        Esta integración permite tratar información de las compras, como el
+        producto adquirido, su importe y moneda, para analizar el uso de Premium
+        y los ingresos de la aplicación.
+      </p>
+
       <h2>5. Servicios de terceros</h2>
 
       <p>Interludio utiliza servicios de Google para determinadas funciones:</p>
@@ -221,6 +234,15 @@
           procesamiento de compras dentro de la aplicación.
         </li>
       </ul>
+
+      <p>
+        La biblioteca de Google Play Billing también puede enviar a Google
+        diagnósticos técnicos sobre su funcionamiento, como resultados y errores
+        de las operaciones, junto con información técnica del dispositivo y de
+        la conexión. Esta información es distinta de los eventos personalizados
+        de Interludio y no incluye las notas ni el cumpleaños guardados en la
+        aplicación.
+      </p>
 
       <p>
         Google puede tratar datos de acuerdo con sus propias políticas y
@@ -244,6 +266,14 @@
         Los datos tratados mediante Google Analytics se conservan conforme a la
         configuración de conservación de la propiedad de Analytics y a las
         políticas de Google.
+      </p>
+
+      <p>
+        Borrar los datos de Interludio o desinstalarla puede eliminar la
+        información almacenada localmente, pero no solicita automáticamente la
+        eliminación de los datos ya enviados a Google Analytics. Actualmente
+        Interludio no ofrece un mecanismo específico para solicitar la
+        eliminación de esos datos.
       </p>
 
       <h2>7. Niños</h2>
