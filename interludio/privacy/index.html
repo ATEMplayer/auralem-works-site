@@ -107,7 +107,7 @@
     <h1>Política de Privacidad de Interludio</h1>
 
     <p class="meta">
-      Última actualización: 18 de octubre de 2026
+      Última actualización: 19 de octubre de 2026
     </p>
 
     <article class="content">
@@ -233,6 +233,19 @@
           <strong>Google Play</strong>, para distribución de la aplicación y
           procesamiento de compras dentro de la aplicación.
         </li>
+        <li>
+          <strong>Firebase Authentication</strong>, para generar un
+          identificador técnico que permite gestionar los envíos de opiniones
+          y sugerencias sin registro manual.
+        </li>
+        <li>
+          <strong>Cloud Firestore</strong>, para almacenar los comentarios y
+          los registros auxiliares asociados al envío y al control de frecuencia.
+        </li>
+        <li>
+          <strong>Firebase App Check con Play Integrity</strong>, para comprobar
+          las solicitudes de la aplicación y proteger el servicio.
+        </li>
       </ul>
 
       <p>
@@ -254,7 +267,46 @@
         Auralem Works no vende los datos personales de los usuarios.
       </p>
 
-      <h2>6. Conservación de datos</h2>
+      <h2>6. Opiniones y sugerencias</h2>
+
+      <p>
+        Enviar opiniones o sugerencias es voluntario y no es necesario para
+        utilizar las demás funciones de Interludio. Si envías el formulario,
+        recibimos la categoría y el texto del comentario, junto con la fecha,
+        la versión y el código de versión de la aplicación. Utilizamos estos
+        datos para recibir y revisar tus comentarios. Para tramitar el envío y
+        controlar su frecuencia, también se generan un identificador técnico
+        de Firebase Authentication (UID) y registros auxiliares.
+      </p>
+
+      <p>
+        El formulario utiliza Firebase Authentication, Cloud Firestore y
+        Firebase App Check con Play Integrity. Firebase Authentication genera
+        el UID técnico para gestionar el envío, sin pedirte crear una cuenta,
+        registrarte manualmente ni proporcionar tu nombre o correo electrónico.
+        El UID y los metadatos técnicos que estos servicios pueden tratar para
+        la autenticación y la seguridad pueden distinguir los envíos, aunque
+        no se soliciten datos de contacto ni una cuenta visible.
+      </p>
+
+      <p>
+        Los comentarios no se publican ni quedan disponibles para otros
+        usuarios, y Auralem Works no ofrece respuestas a los comentarios. El
+        formulario no envía las notas de Momentos, el historial personal ni
+        datos de Interludio Premium.
+      </p>
+
+      <p>
+        Los comentarios y los registros auxiliares que correspondan se eliminan
+        manualmente durante revisiones administrativas mensuales. Los
+        comentarios se conservan como máximo 90 días. Puedes solicitar la
+        eliminación del comentario y sus registros auxiliares escribiendo
+        a <a href="mailto:fsalazar.apps@gmail.com">fsalazar.apps@gmail.com</a>.
+        Desinstalar Interludio no elimina automáticamente los comentarios ya
+        almacenados en Firebase.
+      </p>
+
+      <h2>7. Conservación de datos</h2>
 
       <p>
         Los datos almacenados localmente permanecen en tu dispositivo mientras
@@ -269,6 +321,32 @@
       </p>
 
       <p>
+        El plazo máximo de 90 días se aplica a los comentarios de Feedback y a
+        los registros auxiliares que se eliminen junto con ellos. No se aplica
+        al UID técnico de Firebase Authentication ni a los posibles metadatos
+        técnicos de Firebase Authentication y App Check. Eliminar un comentario
+        o desinstalar la aplicación no elimina automáticamente esas identidades
+        ni los registros técnicos de dichos servicios. Si solicitas por correo
+        eliminar también el UID vinculado a tu envío, Auralem Works puede
+        gestionarlo manualmente en Firebase Authentication.
+      </p>
+
+      <p>
+        Google informa que Firebase Authentication conserva los registros de
+        direcciones IP durante algunas semanas y otra información de
+        autenticación hasta que el desarrollador solicita eliminar el usuario;
+        después, la eliminación de los sistemas activos y de respaldo puede
+        tardar hasta 180 días. Firebase App Check indica que no conserva los
+        materiales de atestación, aunque estos se envían al proveedor de
+        atestación y quedan sujetos a sus condiciones. Los tokens de App Check
+        tienen una vigencia configurada de hasta 7 días; si se utiliza la
+        protección contra repetición, los tokens usados pueden conservarse
+        hasta 30 días. Consulta la
+        <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a>
+        para conocer las prácticas vigentes.
+      </p>
+
+      <p>
         Borrar los datos de Interludio o desinstalarla puede eliminar la
         información almacenada localmente, pero no solicita automáticamente la
         eliminación de los datos ya enviados a Google Analytics. Actualmente
@@ -276,7 +354,7 @@
         eliminación de esos datos.
       </p>
 
-      <h2>7. Niños</h2>
+      <h2>8. Niños</h2>
 
       <p>
         Interludio no está diseñada específicamente para recopilar información
@@ -284,7 +362,7 @@
         comunicación entre usuarios.
       </p>
 
-      <h2>8. Cambios en esta política</h2>
+      <h2>9. Cambios en esta política</h2>
 
       <p>
         Esta Política de Privacidad puede actualizarse si cambian las funciones
@@ -293,7 +371,7 @@
         documento.
       </p>
 
-      <h2>9. Contacto</h2>
+      <h2>10. Contacto</h2>
 
       <p>
         Si tienes preguntas relacionadas con esta Política de Privacidad o con
